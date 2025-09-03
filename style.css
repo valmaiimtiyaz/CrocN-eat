@@ -1,0 +1,247 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset dan base */
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Wrapper */
+.wrapper {
+  max-width: 1100px;
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+/* Logo */
+.logo a {
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  font-family: 'Montserrat';
+  color: #F9F6E6;
+  line-height: 90px;
+}
+
+/* Menu */
+.menu {
+  float: right;
+}
+
+/* Navbar */
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 90px;
+  position: sticky;
+  top: 0;
+  background: #8D77AB;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #F9F6E6;
+  font-weight: 500;
+  text-align: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Kotak dekorasi */
+.persegigelap {
+  position: absolute;
+  margin-top: -62px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #E1EACD;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.persegiterang {
+  position: absolute;
+  margin-top: -40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #F9F6E6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Tombol */
+.explore-btn {
+  position: absolute;
+  background-color: #8a6cb0;
+  color: white;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease, transform 0.2s ease;
+  z-index: 100;
+  left: 50%;
+  top: 370px;
+  transform: translate(-50%, -50%);
+}
+
+.explore-btn:hover {
+  background-color: #6f5294;
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
+/* Konten utama */
+section {
+  z-index: 100;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.kolom {
+  position: relative;
+  z-index: 200;
+  text-align: center;
+  color: #8D77AB;
+  margin-top: 80px;
+}
+
+.kolom .deskripsi {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+
+.kolom h2 {
+  font-size: 100px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+.kolom p {
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: 0;
+}
+
+/* ========================
+   RESPONSIVE
+======================== */
+@media (max-width: 992px) {
+  .kolom h2 {
+    font-size: 70px;
+  }
+
+  .kolom .deskripsi {
+    font-size: 24px;
+  }
+
+  .kolom p {
+    font-size: 18px;
+  }
+
+  .explore-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    top: auto;
+    bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    line-height: 60px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  .kolom h2 {
+    font-size: 50px;
+  }
+
+  .kolom .deskripsi {
+    font-size: 20px;
+  }
+
+  .kolom p {
+    font-size: 16px;
+  }
+
+  /* Sembunyikan dekorasi di HP */
+  .benang,
+  .risol,
+  .risol1,
+  .risol2,
+  .risol3 {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo a {
+    font-size: 22px;
+  }
+
+  .kolom h2 {
+    font-size: 35px;
+  }
+
+  .kolom .deskripsi {
+    font-size: 18px;
+  }
+
+  .kolom p {
+    font-size: 14px;
+  }
+
+  .explore-btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
