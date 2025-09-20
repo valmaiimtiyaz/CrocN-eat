@@ -258,7 +258,7 @@ body {
   .subtitle { font-size: 18px; margin-top: 160px;}
   .title { font-size: 45px;}
   .desc { font-size: 15px;}
-  .explore-btn { bottom:8px; font-size: 12px; padding: 10px px;}
+  .explore-btn { bottom:8px; font-size: 10px; padding: 10px px;}
   .menu {
     display: none;
     flex-direction: column;
