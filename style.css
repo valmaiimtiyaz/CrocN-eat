@@ -211,6 +211,10 @@ body {
   margin-left: 50%;
   margin-right:auto;
 }
+.explore-btn:hover {
+  background-color: #6f5294; 
+  transform: translate(-50%, -50%) scale(0.8);
+}
 
 /* Responsive untuk HP */
 @media (max-width: 600px) {
@@ -252,13 +256,13 @@ body {
     z-index: 1;
   }
   .risol1 { width:200px; top: 50px; left: -50px; transform: rotate(-28deg);}
-  .risol2 { width:220px; bottom: 260px; left: -100px; transform: rotate(-25deg);}
+  .risol2 { width:220px; bottom: 220px; left: -100px; transform: rotate(-25deg);}
   .risol3 { width:180px; top: 10px; right: 10px; transform: rotate(30deg);}
   .risol4 { width:250px; bottom: 180px; right: -80px; transform: rotate(25deg);}
   .subtitle { font-size: 18px; margin-top: 160px;}
   .title { font-size: 45px;}
   .desc { font-size: 15px;}
-  .explore-btn { bottom:8px; font-size: 11px; padding: 10px px;}
+  .explore-btn { bottom:8px; font-size: 12px; padding: 10px 22px;}
   .menu {
     display: none;
     flex-direction: column;
