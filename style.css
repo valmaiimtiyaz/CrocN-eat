@@ -272,9 +272,9 @@ body {
     z-index: 1;
   }
   .risol1 { width:200px; top: 50px; left: -50px; transform: rotate(-28deg);}
-  .risol2 { width:220px; bottom: 130px; left: -100px; transform: rotate(-25deg);}
+  .risol2 { width:220px; bottom: 170px; left: -100px; transform: rotate(-25deg);}
   .risol3 { width:180px; top: 10px; right: 0px; transform: rotate(30deg);}
-  .risol4 { width:250px; bottom: 80px; right: -80px; transform: rotate(25deg);}
+  .risol4 { width:250px; bottom: 150px; right: -80px; transform: rotate(25deg);}
   .subtitle { font-size: 18px; margin-top: 160px;}
   .title { font-size: 50px;}
   .desc { font-size: 14px;}
