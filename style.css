@@ -466,6 +466,7 @@ body {
     background: #8D77AB;
     width: 100%;
     height: 195vh;
+    height: 210vh;
     z-index: 0;
   }
   .persegigelap{
@@ -473,6 +474,7 @@ body {
     top: 885px;
     width: 100%;
     height: 185vh;
+    height: 190vh;
     border-radius: 20px; 
     background-color: #E1EACD;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
@@ -577,139 +579,3 @@ body {
     transform: scale(1.05);
   }
 }
-
-  /* Safari-specific fixes */
-@supports (-webkit-appearance: none) and (not (appearance: none)) {
-  /* Desktop Safari fixes */
-  .productscontainer {
-    background: #8D77AB;
-    width: 100vw;
-    height: 100vh;
-    height: 100dvh; /* Safari dynamic viewport */
-    margin: 0;
-    padding: 50px 0px;
-    -webkit-transform: translateZ(0); /* Force GPU acceleration */
-  }
-
-  .persegiterang1 {
-    position: absolute;
-    margin-top: 90px;
-    width: 100%;
-    height: 115vh;
-    height: 115dvh; /* Safari dynamic viewport */
-    border-radius: 0 0 20px 20px; 
-    background-color: #F9F6E6;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-    z-index: 2;
-    overflow: hidden;
-    -webkit-transform: translateZ(0);
-  }
-
-  .explore-btn {
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -webkit-appearance: none;
-  }
-
-  .explore-btn:hover {
-    background-color: #6f5294; 
-    -webkit-transform: translate(-50%, -50%) scale(0.8);
-    transform: translate(-50%, -50%) scale(0.8);
-  }
-}
-
-/* Safari iOS specific (iPhone/iPad) */
-@supports (-webkit-touch-callout: none) {
-  /* Mobile Safari fixes */
-  body {
-    -webkit-overflow-scrolling: touch;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .container {
-    width: 100%;
-    min-height: 100vh;
-    min-height: 100dvh; /* Safari mobile viewport fix */
-  }
-
-  .productscontainer {
-    background: #8D77AB;
-    width: 100%;
-    height: 180vh;
-    height: 180dvh; /* Safari mobile viewport fix */
-    z-index: 0;
-  }
-
-  .persegiterang1 {
-    position: absolute;
-    margin-top: -50px;
-    width: 100%;
-    height: 190vh;
-    height: 190dvh; /* Safari mobile viewport fix */
-    border-radius: 0 0 20px 20px; 
-    background-color: #F9F6E6;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-    z-index: 2;
-    overflow: hidden;
-    -webkit-transform: translateZ(0);
-  }
-
-  .persegigelap {
-    position: absolute;
-    top: 885px;
-    width: 100%;
-    height: 170vh;
-    height: 170dvh; /* Safari mobile viewport fix */
-    border-radius: 20px; 
-    background-color: #E1EACD;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
-    z-index: 1;
-  }
-
-  /* Touch-specific button fixes */
-  .orderbtn, .orderbtn1 {
-    -webkit-appearance: none;
-    -webkit-tap-highlight-color: transparent;
-    cursor: pointer;
-  }
-
-  .orderbtn:hover, .orderbtn1:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-  }
-
-  /* Grid fixes for Safari mobile */
-  .productsgrid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
-    justify-items: center;
-    z-index: 5;
-    position: relative;
-    -webkit-transform: translateZ(0);
-  }
-
-  /* Text rendering fixes */
-  .judulbesar, .title, .subtitle, .desc {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-}
-
-/* Safari-specific scrolling fixes */
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  body {
-    -webkit-overflow-scrolling: touch;
-  }
-  
-  /* Prevent zoom on input focus (Safari mobile) */
-  input, select, textarea, button {
-    font-size: 16px !important;
-  }
-  
-  /* Fix for Safari viewport units */
-  .productscontainer {
-    min-height: -webkit-fill-available;
-  }
-}
-
