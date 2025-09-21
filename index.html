@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CrocN'eat Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hey.css">
   </head>
 
   <body>
@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <div class="container" id="home">
+    <section class="container" id="home">
       <div class="persegiputih">
       <!-- dekor dan home -->
         <img src="Group 19.svg" class="risol1" alt="img">
@@ -35,8 +35,43 @@
         <div class="subtitle">Introducing</div>
         <div class="title">CrocN'eat</div>
         <div class="desc">Delicious ROLLS, delightful STITCHES</div>
-        <button class="explore-btn" href="products">Explore Our Products</button>
+        <button class="explore-btn" onclick="scrollToProducts()">Explore Our Products</button>
       </div>
+    </section>
+
+    <!--explore products-->
+    <section id="products">
+      <div class="productscontainer">
+        <div class="persegigelap"></div>
+        <div class="persegiterang1"></div>
+        <div class="kolam">
+          <h2 class="judulbesar">CrocN'eat Collection</h2>
+        </div>
+
+      <div class="productsgrid">
+        <div class="bungkusan">
+            <img src="Group 25.svg" alt="gambarrisol" class="persegirisol1">
+            <button class="orderbtn" onclick="goToInstagram()">Order Via Instagram - Rp 3,500</button>
+        </div>
+
+        <div class="bungkusan">
+          <img src="Group 26.svg" alt="gambarrisol" class="persegirisol2">
+          <button class="orderbtn" onclick="goToInstagram()">Order Via Instagram - Rp 3,000</button>
+        </div>
+
+        <div class="bungkusan">
+          <img src="Group 27.svg" alt="gambarrisol" class="persegirisol3">
+          <button class="orderbtn" onclick="goToInstagram()">Order Via Instagram - Rp 2,500</button>
+        </div>
+      </div>
+        
+        <div class="bungkusan">
+          <img src="Group 28.svg" alt="gambarrisol" class="persegirisol4">
+          <button class="orderbtn1" onclick="goToInstagram()">Order Via Instagram (PO)</button>
+        </div>
+      </div>
+    </section>
+
     </div>
   <script src="menu.js"></script>
   </body>
