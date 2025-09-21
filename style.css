@@ -417,7 +417,7 @@ body {
   .benangfull{
     display: block;
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 50%;
     transform: translateX(-50%);
     width: 95vw;
@@ -427,8 +427,8 @@ body {
   .risol1 { width:200px; top: 80px; left: -50px; transform: rotate(-28deg);}
   .risol2 { width:220px; bottom: 70px; left: -90px; transform: rotate(-25deg);}
   .risol3 { width:180px; top: 10px; right: 0px; transform: rotate(30deg);}
-  .risol4 { width:250px; bottom: 21px; right: -80px; transform: rotate(25deg);}
-  .subtitle { font-size: 18px; margin-top: 190px;}
+  .risol4 { width:250px; bottom: 25px; right: -80px; transform: rotate(25deg);}
+  .subtitle { font-size: 18px; margin-top: 200px;}
   .title { font-size: 50px;}
   .desc { font-size: 14px;}
   .explore-btn { bottom:8px; font-size: 12px; padding: 12px; width:auto;}
@@ -465,14 +465,14 @@ body {
   .productscontainer {
     background: #8D77AB;
     width: 100%;
-    height: 195vh;
+    height: 198vh;
     z-index: 0;
   }
   .persegigelap{
     position: absolute;
     top: 885px;
     width: 100%;
-    height: 185vh;
+    height: 188vh;
     border-radius: 20px; 
     background-color: #E1EACD;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
@@ -480,14 +480,14 @@ body {
   }
   .persegiterang1{
     position: absolute;
-    margin-top: -50px;
+    margin-top: -49.9px;
     width: 100%;
-    height: 203vh;
+    height: 207vh;
     border-radius: 0 0 20px 20px; 
     background-color: #F9F6E6;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
     z-index: 2;
-    overflow: hidden;
+
   }
   .judulbesar{
     text-align: center;
