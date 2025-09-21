@@ -27,8 +27,6 @@ body {
   overflow-x: hidden;
   height: 100%;
   background: #F9F6E6;
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
 }
 .container {
   width: 100%;
@@ -529,7 +527,7 @@ body {
     object-fit: contain;
   } 
   .persegirisol4{
-    width: 90%;
+    width: 100%;
     height: auto;
     max-height: none;
     object-fit: contain;
