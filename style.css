@@ -425,13 +425,13 @@ body {
     z-index: 1;
   }
   .risol1 { width:200px; top: 80px; left: -50px; transform: rotate(-28deg);}
-  .risol2 { width:220px; bottom: 100px; left: -100px; transform: rotate(-25deg);}
+  .risol2 { width:220px; bottom: 70px; left: -90px; transform: rotate(-25deg);}
   .risol3 { width:180px; top: 10px; right: 0px; transform: rotate(30deg);}
-  .risol4 { width:250px; bottom: 70px; right: -80px; transform: rotate(25deg);}
-  .subtitle { font-size: 18px; margin-top: 200px;}
+  .risol4 { width:250px; bottom: 21px; right: -80px; transform: rotate(25deg);}
+  .subtitle { font-size: 18px; margin-top: 190px;}
   .title { font-size: 50px;}
   .desc { font-size: 14px;}
-  .explore-btn { bottom:8px; font-size: 11px; padding: 10px;}
+  .explore-btn { bottom:8px; font-size: 12px; padding: 12px; width:auto;}
   
   .menu {
     display: none;
@@ -542,7 +542,7 @@ body {
     border-radius: 25px;
     cursor: pointer;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 11px;
     font-family: 'Montserrat', sans-serif;
     transition: all 0.3s ease;
     width: 63%;
@@ -569,7 +569,7 @@ body {
     transition: all 0.3s ease;
     margin-top: -75px;
     margin-bottom: 20px;
-    margin-right: -165px;
+    margin-right: -140px;
   }
 
   .orderbtn1:hover {
