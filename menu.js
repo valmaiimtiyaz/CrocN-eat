@@ -50,5 +50,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //supaya orderbutton direct ke instagram
 function goToInstagram() {
-  window.open("https://instagram.com/vlmtyz", "_blank");
+  window.open("https://www.instagram.com/crocn_eat/", "_blank");
 }
+
