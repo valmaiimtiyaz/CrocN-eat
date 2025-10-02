@@ -650,7 +650,7 @@ body {
 
   .orderbtn1 {
     display: inline-block;
-    padding: 8px 15px;
+    padding: 8px 10px;
     background: #8D77AB;
     color: white;
     border: none;
@@ -660,9 +660,9 @@ body {
     font-size: 7px;
     font-family: 'Montserrat', sans-serif;
     transition: all 0.3s ease;
-    margin-top: -70px;
+    margin-top: -60px;
     margin-bottom: 20px;
-    margin-right: -145px;
+    margin-right: -125px;
   }
 
   .orderbtn1:hover {
@@ -672,19 +672,22 @@ body {
   
 
     #contact {
-        padding: 40px 10px;
+        padding: 0px 10px;
+
     }
 
     .contactbox {
-        padding: 20px;
+        padding: 0px;
+        margin-top: 12px;
+        margin-left: -43px;
     }
 
     .contacttext h2 {
-        font-size: 2em;
+        font-size: 1.3em;
     }
     
     .sosmed a {
-        font-size: 2.5em;
+        font-size: 1.8em;
     }
 
 .bungkusan {
@@ -710,17 +713,8 @@ body {
     width: 90%;
   }
 }
-.contactbox{
-  margin-left: -60px;
-  margin-top: 20px;
-  margin-bottom: -50px;
-}
-.contacttext{
-  font-size: 12px;
-}
-.sosmed a{
-  font-size: 30px;
-}
+
+
 .judulcontact{
   text-align: center;
   top: 90px;
