@@ -453,10 +453,13 @@ body {
 
 /* Responsive untuk HP */
 @media (max-width: 600px) {
+  .body{
+    overflow-x: hidden;
+  }
   .persegiputih {
     padding-bottom: 20px;
     margin-top: 100px;
-    width: 105vw;
+    width: 100%;
     margin: 0 auto;
     padding: 24px 12px; 
     margin-top: 20px; 
@@ -728,3 +731,4 @@ body {
   z-index: 10;
   position: relative;
 }
+
