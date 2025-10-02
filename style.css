@@ -403,8 +403,6 @@ body {
   margin:0;
   font-size : 15px;
   text-align: left;
-  margin-left: 100px;
-  margin-top: -60px;
 }
 
 .contacttext h2 {
@@ -412,7 +410,7 @@ body {
     margin: 0;
     font-family: 'montserrat'; 
     z-index: 1000;
-    margin-top: -50px;
+
 }
 
 .sosmed {
@@ -427,9 +425,6 @@ body {
     color:#F9F6E6; 
     font-size: 2em;
     transition: color 0.3s ease; 
-    justify-content: left;
-    padding-right:20px;
-    margin-top: -55px
 }
 
 .sosmed a:hover {
@@ -453,9 +448,6 @@ body {
 
 /* Responsive untuk HP */
 @media (max-width: 600px) {
-  .body{
-    overflow-x: hidden;
-  }
   .persegiputih {
     padding-bottom: 20px;
     margin-top: 100px;
@@ -717,7 +709,6 @@ body {
   }
 }
 
-
 .judulcontact{
   text-align: center;
   top: 90px;
@@ -731,4 +722,3 @@ body {
   z-index: 10;
   position: relative;
 }
-
